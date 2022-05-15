@@ -1,0 +1,301 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_touch_acessibility/ui/Acessibility.gd" type="Script" id=1]
+
+[node name="Acessibility" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_min_size = Vector2( 100, 100 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [ 152.0, 168.0 ]
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+margin_right = 1920.0
+margin_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Control1" type="Control" parent="ScrollContainer/VBoxContainer"]
+margin_right = 1920.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="HSeparator1" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 36.0
+margin_right = 1920.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer"]
+margin_top = 44.0
+margin_right = 1920.0
+margin_bottom = 76.0
+rect_min_size = Vector2( 0, 32 )
+text = "Mouse Mode"
+align = 1
+valign = 1
+
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 80.0
+margin_right = 1920.0
+margin_bottom = 84.0
+
+[node name="OptionButton" type="OptionButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 88.0
+margin_right = 1920.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 0, 32 )
+text = "Pass"
+align = 1
+items = [ "Pass", null, false, 0, null, "Left Button", null, false, 1, null, "Right Button", null, false, 2, null, "Middle Button", null, false, 3, null, "Scroll", null, false, 4, null ]
+selected = 0
+
+[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 124.0
+margin_right = 1920.0
+margin_bottom = 128.0
+
+[node name="Control2" type="Control" parent="ScrollContainer/VBoxContainer"]
+margin_top = 132.0
+margin_right = 1920.0
+margin_bottom = 164.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="HSeparator4" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 168.0
+margin_right = 1920.0
+margin_bottom = 172.0
+
+[node name="Label5" type="Label" parent="ScrollContainer/VBoxContainer"]
+margin_top = 176.0
+margin_right = 1920.0
+margin_bottom = 208.0
+rect_min_size = Vector2( 0, 32 )
+text = "Keyboard"
+align = 1
+valign = 1
+
+[node name="HSeparator13" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 212.0
+margin_right = 1920.0
+margin_bottom = 216.0
+
+[node name="CheckButton" type="CheckButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 220.0
+margin_right = 1920.0
+margin_bottom = 316.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+pressed = true
+text = "Show Keyboard"
+
+[node name="HSeparator14" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 320.0
+margin_right = 1920.0
+margin_bottom = 324.0
+
+[node name="Control5" type="Control" parent="ScrollContainer/VBoxContainer"]
+margin_top = 328.0
+margin_right = 1920.0
+margin_bottom = 360.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="HSeparator15" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 364.0
+margin_right = 1920.0
+margin_bottom = 368.0
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer"]
+margin_top = 372.0
+margin_right = 1920.0
+margin_bottom = 404.0
+rect_min_size = Vector2( 0, 32 )
+text = "Scene"
+align = 1
+valign = 1
+
+[node name="HSeparator5" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 408.0
+margin_right = 1920.0
+margin_bottom = 412.0
+
+[node name="RunProject" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 416.0
+margin_right = 1920.0
+margin_bottom = 448.0
+rect_min_size = Vector2( 0, 32 )
+text = "Run"
+
+[node name="RunScene" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 452.0
+margin_right = 1920.0
+margin_bottom = 484.0
+rect_min_size = Vector2( 0, 32 )
+text = "Run Scene"
+
+[node name="SaveScene" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 488.0
+margin_right = 1920.0
+margin_bottom = 520.0
+rect_min_size = Vector2( 0, 32 )
+text = "Save Scene"
+
+[node name="HSeparator6" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 524.0
+margin_right = 1920.0
+margin_bottom = 528.0
+
+[node name="Control3" type="Control" parent="ScrollContainer/VBoxContainer"]
+margin_top = 532.0
+margin_right = 1920.0
+margin_bottom = 564.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="HSeparator7" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 568.0
+margin_right = 1920.0
+margin_bottom = 572.0
+
+[node name="Label3" type="Label" parent="ScrollContainer/VBoxContainer"]
+margin_top = 576.0
+margin_right = 1920.0
+margin_bottom = 608.0
+rect_min_size = Vector2( 0, 32 )
+text = "Nodes"
+align = 1
+valign = 1
+
+[node name="HSeparator8" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 612.0
+margin_right = 1920.0
+margin_bottom = 616.0
+
+[node name="AddNode" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 620.0
+margin_right = 1920.0
+margin_bottom = 652.0
+rect_min_size = Vector2( 0, 32 )
+text = "Add Node"
+
+[node name="DeleteNode" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 656.0
+margin_right = 1920.0
+margin_bottom = 688.0
+rect_min_size = Vector2( 0, 32 )
+text = "Delete Node"
+
+[node name="DuplicateNode" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 692.0
+margin_right = 1920.0
+margin_bottom = 724.0
+rect_min_size = Vector2( 0, 32 )
+text = "Duplicate Node"
+
+[node name="MoveUp" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 728.0
+margin_right = 1920.0
+margin_bottom = 760.0
+rect_min_size = Vector2( 0, 32 )
+text = "Move Node Up"
+
+[node name="MoveDown" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 764.0
+margin_right = 1920.0
+margin_bottom = 796.0
+rect_min_size = Vector2( 0, 32 )
+text = "Move Node Down"
+
+[node name="HSeparator9" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 800.0
+margin_right = 1920.0
+margin_bottom = 804.0
+
+[node name="Control4" type="Control" parent="ScrollContainer/VBoxContainer"]
+margin_top = 808.0
+margin_right = 1920.0
+margin_bottom = 840.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="HSeparator10" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 844.0
+margin_right = 1920.0
+margin_bottom = 848.0
+
+[node name="Label4" type="Label" parent="ScrollContainer/VBoxContainer"]
+margin_top = 852.0
+margin_right = 1920.0
+margin_bottom = 884.0
+rect_min_size = Vector2( 0, 32 )
+text = "Shortcuts"
+align = 1
+valign = 1
+
+[node name="HSeparator11" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 888.0
+margin_right = 1920.0
+margin_bottom = 892.0
+
+[node name="Undo" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 896.0
+margin_right = 1920.0
+margin_bottom = 928.0
+rect_min_size = Vector2( 0, 32 )
+text = "Undo"
+
+[node name="Redo" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 932.0
+margin_right = 1920.0
+margin_bottom = 964.0
+rect_min_size = Vector2( 0, 32 )
+text = "Redo"
+
+[node name="Copy" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 968.0
+margin_right = 1920.0
+margin_bottom = 1000.0
+rect_min_size = Vector2( 0, 32 )
+text = "Copy"
+
+[node name="Cut" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 1004.0
+margin_right = 1920.0
+margin_bottom = 1036.0
+rect_min_size = Vector2( 0, 32 )
+text = "Cut"
+
+[node name="Paste" type="ToolButton" parent="ScrollContainer/VBoxContainer"]
+margin_top = 1040.0
+margin_right = 1920.0
+margin_bottom = 1072.0
+rect_min_size = Vector2( 0, 32 )
+text = "Paste"
+
+[node name="HSeparator12" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+margin_top = 1076.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/OptionButton" to="." method="action_selected"]
+[connection signal="toggled" from="ScrollContainer/VBoxContainer/CheckButton" to="." method="keyboard_shown"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/RunProject" to="." method="run"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/RunScene" to="." method="run_scene"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/SaveScene" to="." method="save_scene"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/AddNode" to="." method="add_node"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/DeleteNode" to="." method="delete_node"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/DuplicateNode" to="." method="duplicate_node"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/MoveUp" to="." method="move_node_up"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/MoveDown" to="." method="move_node_down"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/Undo" to="." method="undo"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/Redo" to="." method="redo"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/Copy" to="." method="copy"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/Cut" to="." method="cut"]
+[connection signal="button_down" from="ScrollContainer/VBoxContainer/Paste" to="." method="paste"]

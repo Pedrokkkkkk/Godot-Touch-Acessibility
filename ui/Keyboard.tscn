@@ -1,0 +1,618 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_touch_acessibility/ui/Keyboard.gd" type="Script" id=1]
+
+[node name="Keyboard" type="Control"]
+anchor_right = 0.585938
+anchor_bottom = 0.5
+rect_min_size = Vector2( 600, 300 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Characters" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 600.0
+margin_bottom = 46.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Characters"]
+margin_right = 50.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "("
+
+[node name="Key2" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 54.0
+margin_right = 105.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = ")"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 109.0
+margin_right = 160.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "["
+
+[node name="Key4" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 164.0
+margin_right = 215.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "]"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 219.0
+margin_right = 270.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "{"
+
+[node name="Key6" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 274.0
+margin_right = 325.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "}"
+
+[node name="Key7" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 329.0
+margin_right = 380.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = ":"
+
+[node name="Key8" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 384.0
+margin_right = 435.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = ";"
+
+[node name="Key9" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 439.0
+margin_right = 490.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "$"
+
+[node name="Key10" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 494.0
+margin_right = 545.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "!"
+
+[node name="Key11" type="Button" parent="VBoxContainer/Characters"]
+margin_left = 549.0
+margin_right = 600.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "#"
+
+[node name="Numbers" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 50.0
+margin_right = 600.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Numbers"]
+margin_right = 50.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "1"
+
+[node name="Key2" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 54.0
+margin_right = 105.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "2"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 109.0
+margin_right = 160.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "3"
+
+[node name="Key4" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 164.0
+margin_right = 215.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "4"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 219.0
+margin_right = 270.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "5"
+
+[node name="Key6" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 274.0
+margin_right = 325.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "6"
+
+[node name="Key7" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 329.0
+margin_right = 380.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "7"
+
+[node name="Key8" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 384.0
+margin_right = 435.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "8"
+
+[node name="Key9" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 439.0
+margin_right = 490.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "9"
+
+[node name="Key10" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 494.0
+margin_right = 545.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "0"
+
+[node name="Key11" type="Button" parent="VBoxContainer/Numbers"]
+margin_left = 549.0
+margin_right = 600.0
+margin_bottom = 47.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "0"
+
+[node name="Letters1" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 101.0
+margin_right = 600.0
+margin_bottom = 148.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Letters1"]
+margin_right = 56.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "TAB"
+
+[node name="Key2" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 60.0
+margin_right = 116.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "q"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 120.0
+margin_right = 177.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "w"
+
+[node name="Key4" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 181.0
+margin_right = 237.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "e"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 241.0
+margin_right = 298.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "r"
+
+[node name="Key6" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 302.0
+margin_right = 358.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "t"
+
+[node name="Key7" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 362.0
+margin_right = 418.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "y"
+
+[node name="Key8" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 422.0
+margin_right = 479.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "u"
+
+[node name="Key9" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 483.0
+margin_right = 539.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "i"
+
+[node name="Key10" type="Button" parent="VBoxContainer/Letters1"]
+margin_left = 543.0
+margin_right = 600.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "o"
+
+[node name="Letters2" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 152.0
+margin_right = 600.0
+margin_bottom = 198.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Letters2"]
+margin_right = 63.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "a"
+
+[node name="Key2" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 67.0
+margin_right = 130.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "s"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 134.0
+margin_right = 197.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "d"
+
+[node name="Key4" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 201.0
+margin_right = 264.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "f"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 268.0
+margin_right = 331.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "g"
+
+[node name="Key6" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 335.0
+margin_right = 398.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "h"
+
+[node name="Key7" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 402.0
+margin_right = 465.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "j"
+
+[node name="Key8" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 469.0
+margin_right = 532.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "k"
+
+[node name="Key9" type="Button" parent="VBoxContainer/Letters2"]
+margin_left = 536.0
+margin_right = 600.0
+margin_bottom = 46.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "l"
+
+[node name="Letters3" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 202.0
+margin_right = 600.0
+margin_bottom = 249.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Letters3"]
+margin_right = 85.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.5
+action_mode = 0
+text = "SHIFT"
+
+[node name="Key2" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 89.0
+margin_right = 145.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "z"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 149.0
+margin_right = 206.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "x"
+
+[node name="Key4" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 210.0
+margin_right = 267.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "c"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 271.0
+margin_right = 328.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "v"
+
+[node name="Key6" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 332.0
+margin_right = 389.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "b"
+
+[node name="Key7" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 393.0
+margin_right = 449.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "n"
+
+[node name="Key8" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 453.0
+margin_right = 510.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "m"
+
+[node name="Key9" type="Button" parent="VBoxContainer/Letters3"]
+margin_left = 514.0
+margin_right = 600.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.5
+action_mode = 0
+text = "BACK"
+
+[node name="Bar" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 253.0
+margin_right = 600.0
+margin_bottom = 300.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Key1" type="Button" parent="VBoxContainer/Bar"]
+margin_right = 58.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "."
+
+[node name="Key2" type="Button" parent="VBoxContainer/Bar"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = "<"
+
+[node name="Key3" type="Button" parent="VBoxContainer/Bar"]
+margin_left = 124.0
+margin_right = 356.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 4.0
+action_mode = 0
+text = "SPACE"
+
+[node name="Key4" type="Button" parent="VBoxContainer/Bar"]
+margin_left = 360.0
+margin_right = 418.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = ">"
+
+[node name="Key5" type="Button" parent="VBoxContainer/Bar"]
+margin_left = 422.0
+margin_right = 480.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+text = ","
+
+[node name="Key6" type="Button" parent="VBoxContainer/Bar"]
+margin_left = 484.0
+margin_right = 600.0
+margin_bottom = 47.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+action_mode = 0
+text = "ENTER"
